@@ -1,5 +1,6 @@
 package ch7;
 
+
 class Tv{
 	boolean power; // 전원상태(on/off)
 	int channel; // 채널
