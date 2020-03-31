@@ -1,5 +1,5 @@
 //package com.javachobo.book;
-package ch7_8;
+package ch7_8.com.javachobo.book;
 
 public class packageTest {
 

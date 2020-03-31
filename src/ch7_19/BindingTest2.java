@@ -3,7 +3,7 @@ package ch7_19;
 public class BindingTest2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Parent p = new Child();
 		Child c = new Child();
 		
