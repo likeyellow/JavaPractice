@@ -16,7 +16,7 @@ public class StringTokenizerEx4 {
 		
 		final String NUMBER = "øµ¿œ¿ÃªÔªÁø¿¿∞ƒ•∆»±∏";
 		final String UNIT = "Ω πÈ√µ∏∏æÔ¡∂";
-		final long[] UNIT_NUM = {10,100,1000,10000,100000,1000000};
+		final long[] UNIT_NUM = {10,100,1000,10000,(long)100000000L,(long)1000000000000L};
 		
 		StringTokenizer st = new StringTokenizer(input, UNIT, true);
 		
