@@ -3,7 +3,6 @@ package ch11;
 import java.util.*;
 
 public class HashSetEx5 {
-
 	public static void main(String[] args) {
 		HashSet setA = new HashSet();
 		HashSet setB = new HashSet();
@@ -34,22 +33,13 @@ public class HashSetEx5 {
 		it = setA.iterator();
 		while(it.hasNext())
 			setHab.add(it.next());
-		
 		it = setB.iterator();
 		while(it.hasNext())
 			setHab.add(it.next());
 		
-		it = setB.iterator();
-		while(it.hasNext())
-			setHab.add(it.next());
-		
-		it = setB.iterator();
-		while(it.hasNext())
-			setHab.add(it.next());
-		
-		System.out.println("A ¡û B = " + setKyo);
-		System.out.println("A ¡ú B = " + setHab);
-		System.out.println("A - B = " + setCha);
+		System.out.println("A ¡û B = "+setKyo);
+		System.out.println("A ¡ú B = "+setHab);
+		System.out.println("A - B = "+setCha);
 
 	}
 

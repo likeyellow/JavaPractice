@@ -6,12 +6,11 @@ public class TreeSetLotto {
 	public static void main(String[] args) {
 		Set set = new TreeSet();
 		
-		for(int i=0; set.size()<6; i++) {
-			int num = (int)(Math.random() *45)+1;
-			set.add(num); // set.add(new Integer(num));
+		for(int i = 0; set.size() < 6; i++) {
+			int num = (int)(Math.random()*45) +1;
+			set.add(num); // set.add(new Integer(num)); 
 		}
-		System.out.print(set);
-
+		System.out.println(set);
 	}
 
 }
